@@ -1,0 +1,23 @@
+{
+  "Rank_EX": {
+    "Metadata": {
+      "VTuber": "Test_Gem",
+      "Region": "JP",
+      "Topic_Type": "Outlier_Detection"
+    },
+    "Data_Points": {
+      "PeakScore": 99.9,
+      "Density": "UNMEASURABLE",
+      "Max_SC_JPY": 150000
+    },
+    "Script_Assets": {
+      "Headline": "【BREAKING】同接300人で起きた奇跡。計測不能（Outlier）の熱狂を観測",
+      "Narrative": [
+        "1. エンゲージメント密度が限界を突破し、システムが『Outlier（外れ値）』フラグを検知。",
+        "2. 定例ランキングのフォーマットを破壊する、いい意味での『計測不能』なバーストが発生。",
+        "3. 個別解析：このライバーは少人数ながら、極めて強固な太客（Whale）を抱えている。"
+      ],
+      "Punchline": "「同接数という幻想を捨てろ。これが真の熱狂だ」"
+    }
+  }
+}
