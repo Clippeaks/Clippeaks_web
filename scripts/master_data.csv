@@ -1,3 +1,0 @@
-title,youtube_link,content
-"Top Story 1","https://www.youtube.com/embed/YOUTUBE_ID_1","This is a safe content without XSS."
-"Malicious Content 1","https://www.youtube.com/embed/YOUTUBE_ID_2","<script>alert('XSS')</script>This is malicious content with XSS."
