@@ -54,7 +54,7 @@ class ClippeaksCore:
             if val > threshold:
                 score = (val - threshold) / std_val
                 
-                # オープン版仕様：一律の固定窓によるIN/OUT生成
+                # オープン版仕様：一律の固定窓によるIN/OUT生成（機密ロジックは一切非開示）
                 in_sec = max(0, i - self.context_before)
                 out_sec = min(len(raw_counts) - 1, i + self.context_after)
                 
@@ -63,7 +63,7 @@ class ClippeaksCore:
                     in_sec=in_sec,
                     out_sec=out_sec,
                     score=round(score, 1),
-                    level="ULTRA" if score > 50 else "HIGH" if score > 25 else "LOW"
+                    level="ULTRA" if score > 5.0 else "HIGH" if score > 2.5 else "LOW"
                 ))
 
         return sorted(points, key=lambda p: p.score, reverse=True)
